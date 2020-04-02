@@ -18,7 +18,7 @@
                 <href>http://simplekml.googlecode.com/hg/samples/resources/simplekml-logo.png</href>
             </Icon>
             <overlayXY x="0" xunits="fraction" y="1" yunits="fraction"/>
-            <screenXY x="15" xunits="pixel" y="15" yunits="insetPixels"/>
+            <screenXY x="15" xunits="pixels" y="15" yunits="insetPixels"/>
             <size x="-1" xunits="fraction" y="-1" yunits="fraction"/>
         </ScreenOverlay>
         <PhotoOverlay id="feat_4">

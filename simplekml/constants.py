@@ -61,7 +61,7 @@ class State(object):
 
 class Units(object):
     """Units constants."""
-    pixel = 'pixel'
+    pixels = 'pixels'
     fraction = 'fraction'
     insetpixels = 'insetPixels'
 
@@ -82,7 +82,7 @@ class GridOrigin(object):
 class RefreshMode(object):
     """RefreshMode constants."""
     onchange = 'onChange'
-    oninterval = 'onInterval '
+    oninterval = 'onInterval'
     onexpire = 'onExpire'
 
 
