@@ -1,6 +1,17 @@
 Release History
 ===============
 
+simplekml 1.3.4 - 02 April 2020
+-------------------------------
+**Fixes**
+  * Changed pixel to pixels in class Units
+  * Removed a space in class RefreshMode
+
+simplekml 1.3.3 - 28 January 2020
+---------------------------------
+**Fixes**
+  * Changed cgi module to html for Python 3
+
 simplekml 1.3.2 - 28 January 2020
 ---------------------------------
 **Fixes**
