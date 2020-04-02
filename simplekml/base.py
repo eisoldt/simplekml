@@ -1,5 +1,5 @@
 """
-Copyright 2011-2018 Kyle Lancaster
+Copyright 2011-2018 Kyle Lancaster | 2019 Patrick Eisoldt
 
 Simplekml is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -17,7 +17,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 import os
-import cgi
+import sys
+if sys.version < '3':
+    import cgi
+else:
+    import html
 import xml.dom.minidom
 import warnings
 from simplekml.makeunicode import u
@@ -86,12 +90,18 @@ class Kmlable(object):
         count = text.count(cdatastart)
         if count > 0:
             for i in range(count):
-                endtext += cgi.escape(starttext[0:starttext.find(cdatastart)])
+                if sys.version < '3':
+                    endtext += cgi.escape(starttext[0:starttext.find(cdatastart)])
+                else:
+                    endtext += html.escape(starttext[0:starttext.find(cdatastart)])
                 endtext += starttext[starttext.find(cdatastart):starttext.find(cdataend)+len(cdataend)]
                 starttext = starttext[starttext.find(cdataend)+len(cdataend):]
             endtext += starttext
         else:
-            endtext = cgi.escape(text)
+            if sys.version < '3':
+                endtext = cgi.escape(text)
+            else:
+                endtext = html.escape(text)
         return endtext
     
     def addfile(self, path):

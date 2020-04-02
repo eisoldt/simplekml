@@ -1,5 +1,5 @@
 """
-Copyright 2011-2016 Kyle Lancaster
+Copyright 2011-2016 Kyle Lancaster | 2019 Patrick Eisoldt
 
 Simplekml is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -21,18 +21,18 @@ from distutils.core import setup
 setup(
     name = 'simplekml',
     packages = ['simplekml'],
-    version = '1.3.1',
+    version = '1.3.2',
     description = 'A Simple KML creator',
-    author='Kyle Lancaster',
-    author_email='kyle.lan@gmail.com',
+    author='2011-2016 Kyle Lancaster | 2019 Patrick Eisoldt',
+    author_email='patrick@eisoldt.com',
     url='http://readthedocs.org/projects/simplekml/',
     license='GNU Lesser General Public License v3+',
     classifiers=[
             'Development Status :: 5 - Production/Stable',
             'Programming Language :: Python',
-            'Programming Language :: Python :: 2.6',
             'Programming Language :: Python :: 2.7',
             'Programming Language :: Python :: 3',
+            'Programming Language :: Python :: 3.8',
             'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)',
             'Operating System :: OS Independent',
             'Topic :: Scientific/Engineering :: GIS',

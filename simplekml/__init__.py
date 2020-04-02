@@ -1,5 +1,5 @@
 """
-Copyright 2011-2018 Kyle Lancaster
+Copyright 2011-2018 Kyle Lancaster | 2019 Patrick Eisoldt
 
 Simplekml is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -33,4 +33,4 @@ from simplekml.timeprimitive import GxTimeSpan,GxTimeStamp,TimeSpan,TimeStamp
 from simplekml.tour import GxAnimatedUpdate,GxFlyTo,GxPlaylist,GxSoundCue,GxTour,GxTourControl,GxWait,Update
 from simplekml.networklinkcontrol import LinkSnippet, NetworkLinkControl
 
-__version__ = "1.3.1"
+__version__ = "1.3.2"

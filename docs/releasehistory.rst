@@ -1,6 +1,11 @@
 Release History
 ===============
 
+simplekml 1.3.2 - 28 January 2020
+---------------------------------
+**Fixes**
+  * Changed cgi module to html for Python 3
+
 simplekml 1.3.1 - 08 August 2018
 --------------------------------
 **Changes**
