@@ -21,7 +21,7 @@ import setuptools
 setuptools.setup(
     name = 'simplekml',
     packages = ['simplekml'],
-    version = '1.3.3',
+    version = '1.3.5',
     description = 'A Simple KML creator',
     author='2011-2016 Kyle Lancaster | 2019 Patrick Eisoldt',
     author_email='patrick@eisoldt.com',
@@ -38,5 +38,6 @@ setuptools.setup(
             'Topic :: Scientific/Engineering :: GIS',
             'Topic :: Software Development :: Libraries :: Python Modules'
           ],
-    long_description=open('README.md').read()
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown'
 )
