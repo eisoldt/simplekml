@@ -1,3 +1,5 @@
 build/*
 dist/*
 simplekml.egg-info/*
+docs/_build
+simplekml/__pycache__/*
