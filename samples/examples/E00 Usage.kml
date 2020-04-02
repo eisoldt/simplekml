@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <name>Usage</name>
+        <open>1</open>
+        <Placemark id="feat_2">
+            <name>Kirstenbosch</name>
+            <Point id="geom_0">
+                <coordinates>18.432314,-33.988862,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3">
+            <name>Pathway</name>
+            <description>A pathway in &lt;b&gt;Kirstenbosch&lt;/b&gt;</description>
+            <LineString id="geom_1">
+                <coordinates>18.43312,-33.98924,0.0 18.43224,-33.98914,0.0 18.43144,-33.98911,0.0 18.43095,-33.98904,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="feat_4">
+            <name>Atrium Garden</name>
+            <Polygon id="geom_2">
+                <outerBoundaryIs>
+                    <LinearRing id="geom_3">
+                        <coordinates>18.43348,-33.98985,0.0 18.43387,-33.99004262216968,0.0 18.4341,-33.98972,0.0 18.43371,-33.98952,0.0 18.43348,-33.98985,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+                <innerBoundaryIs>
+                    <LinearRing id="geom_4">
+                        <coordinates>18.4336,-33.98982,0.0 18.43386,-33.98995,0.0 18.43401,-33.98974,0.0 18.43376,-33.98962,0.0 18.4336,-33.98982,0.0</coordinates>
+                    </LinearRing>
+                </innerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>

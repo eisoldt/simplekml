@@ -1,0 +1,8 @@
+<NetworkLink>
+    <open>1</open>
+    <Snippet maxLines="4">Click on the name of any network link in the table of contents to see the code that generated the samples.</Snippet>
+    <Link>
+        <href>https://bitbucket.org/KyleLancaster/simplekml/raw/tip/samples/samples.kml</href>
+    </Link>
+    <name>Samples</name>
+</NetworkLink>

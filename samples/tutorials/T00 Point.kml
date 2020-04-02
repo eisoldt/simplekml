@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <name>Point</name>
+        <open>1</open>
+        <Placemark id="feat_2">
+            <name>The World</name>
+            <Point id="geom_0">
+                <coordinates>0.0,0.0,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3">
+            <name>Aberdeen, Scotland</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_1">
+                <coordinates>-2.15,57.15,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_4">
+            <name>Adelaide, Australia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:30 a.m.</description>
+            <Point id="geom_2">
+                <coordinates>138.6,-34.916667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_5">
+            <name>Algiers, Algeria</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_3">
+                <coordinates>3,36.833333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_6">
+            <name>Amsterdam, Netherlands</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_4">
+                <coordinates>4.883333,52.366667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_7">
+            <name>Ankara, Turkey</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_5">
+                <coordinates>32.916667,39.916667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_8">
+            <name>Asuncion, Paraguay</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 p.m.</description>
+            <Point id="geom_6">
+                <coordinates>-57.666667,-25.25,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_9">
+            <name>Athens, Greece</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_7">
+                <coordinates>23.716667,37.966667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_10">
+            <name>Auckland, New Zealand</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 a.m.</description>
+            <Point id="geom_8">
+                <coordinates>174.75,-36.866667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_11">
+            <name>Bangkok, Thailand</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: midnight</description>
+            <Point id="geom_9">
+                <coordinates>100.5,13.75,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_12">
+            <name>Barcelona, Spain</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_10">
+                <coordinates>2.15,41.383333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_13">
+            <name>Beijing, China</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_11">
+                <coordinates>116.416667,39.916667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_14">
+            <name>Belem, Brazil</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 p.m.</description>
+            <Point id="geom_12">
+                <coordinates>-48.483333,-1.466667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_15">
+            <name>Belfast, Northern Ireland</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_13">
+                <coordinates>-5.933333,54.616667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_16">
+            <name>Belgrade, Serbia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_14">
+                <coordinates>20.533333,44.866667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_17">
+            <name>Berlin, Germany</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_15">
+                <coordinates>13.416667,52.5,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_18">
+            <name>Birmingham, England</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_16">
+                <coordinates>-1.916667,52.416667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_19">
+            <name>Bogota, Colombia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 12:00 noon</description>
+            <Point id="geom_17">
+                <coordinates>-74.25,4.533333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_20">
+            <name>Bombay, India</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 10:30 p.m.</description>
+            <Point id="geom_18">
+                <coordinates>72.8,19,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_21">
+            <name>Bordeaux, France</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_19">
+                <coordinates>-0.516667,44.833333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_22">
+            <name>Bremen, Germany</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_20">
+                <coordinates>8.816667,53.083333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_23">
+            <name>Brisbane, Australia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 3:00 a.m.</description>
+            <Point id="geom_21">
+                <coordinates>153.133333,-27.483333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_24">
+            <name>Bristol, England</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_22">
+                <coordinates>-2.583333,51.466667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_25">
+            <name>Brussels, Belgium</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_23">
+                <coordinates>4.366667,50.866667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_26">
+            <name>Bucharest, Romania</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_24">
+                <coordinates>26.116667,44.416667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_27">
+            <name>Budapest, Hungary</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_25">
+                <coordinates>19.083333,47.5,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_28">
+            <name>Buenos Aires, Argentina</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 p.m.</description>
+            <Point id="geom_26">
+                <coordinates>-58.366667,-34.583333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_29">
+            <name>Cairo, Egypt</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_27">
+                <coordinates>31.35,30.033333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_30">
+            <name>Calcutta, India</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 10:30 p.m.</description>
+            <Point id="geom_28">
+                <coordinates>88.4,22.566667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_31">
+            <name>Canton, China</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_29">
+                <coordinates>113.25,23.116667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_32">
+            <name>Cape Town, South Africa</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_30">
+                <coordinates>18.366667,-33.916667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_33">
+            <name>Caracas, Venezuela</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 p.m.</description>
+            <Point id="geom_31">
+                <coordinates>-67.033333,10.466667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_34">
+            <name>Cayenne, French Guiana</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 p.m.</description>
+            <Point id="geom_32">
+                <coordinates>-52.3,4.816667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_35">
+            <name>Chihuahua, Mexico</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 10:00 a.m.</description>
+            <Point id="geom_33">
+                <coordinates>-106.083333,28.616667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_36">
+            <name>Chongqing, China</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_34">
+                <coordinates>106.566667,29.766667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_37">
+            <name>Copenhagen, Denmark</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_35">
+                <coordinates>12.566667,55.666667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_38">
+            <name>Cordoba, Argentina</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 p.m.</description>
+            <Point id="geom_36">
+                <coordinates>-64.166667,-31.466667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_39">
+            <name>Dakar, Senegal</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_37">
+                <coordinates>-17.466667,14.666667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_40">
+            <name>Darwin, Australia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:30 a.m.</description>
+            <Point id="geom_38">
+                <coordinates>130.85,-12.466667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_41">
+            <name>Djibouti, Djibouti</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 8:00 p.m.</description>
+            <Point id="geom_39">
+                <coordinates>43.05,11.5,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_42">
+            <name>Dublin, Ireland</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_40">
+                <coordinates>-6.25,53.333333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_43">
+            <name>Durban, South Africa</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_41">
+                <coordinates>30.883333,-29.883333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_44">
+            <name>Edinburgh, Scotland</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_42">
+                <coordinates>-3.166667,55.916667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_45">
+            <name>Frankfurt, Germany</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_43">
+                <coordinates>8.683333,50.116667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_46">
+            <name>Georgetown, Guyana</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 p.m.</description>
+            <Point id="geom_44">
+                <coordinates>-58.25,6.75,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_47">
+            <name>Glasgow, Scotland</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_45">
+                <coordinates>-4.25,55.833333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_48">
+            <name>Guatemala City, Guatemala</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 11:00 a.m.</description>
+            <Point id="geom_46">
+                <coordinates>-90.516667,14.616667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_49">
+            <name>Guayaquil, Ecuador</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 12:00 noon</description>
+            <Point id="geom_47">
+                <coordinates>-79.933333,-2.166667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_50">
+            <name>Hamburg, Germany</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_48">
+                <coordinates>10.033333,53.55,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_51">
+            <name>Hammerfest, Norway</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_49">
+                <coordinates>23.633333,70.633333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_52">
+            <name>Havana, Cuba</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 12:00 noon</description>
+            <Point id="geom_50">
+                <coordinates>-82.383333,23.133333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_53">
+            <name>Helsinki, Finland</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_51">
+                <coordinates>25,60.166667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_54">
+            <name>Hobart, Tasmania</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 3:00 a.m.</description>
+            <Point id="geom_52">
+                <coordinates>147.316667,-42.866667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_55">
+            <name>Hong Kong, China</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_53">
+                <coordinates>114.183333,22.333333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_56">
+            <name>Iquique, Chile</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 p.m.</description>
+            <Point id="geom_54">
+                <coordinates>-70.116667,-20.166667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_57">
+            <name>Irkutsk, Russia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_55">
+                <coordinates>104.333333,52.5,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_58">
+            <name>Jakarta, Indonesia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: midnight</description>
+            <Point id="geom_56">
+                <coordinates>106.8,-6.266667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_59">
+            <name>Johannesburg, South Africa</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_57">
+                <coordinates>28.066667,-26.2,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_60">
+            <name>Kingston, Jamaica</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 12:00 noon</description>
+            <Point id="geom_58">
+                <coordinates>-76.816667,17.983333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_61">
+            <name>Kinshasa, Congo</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_59">
+                <coordinates>15.283333,-4.3,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_62">
+            <name>Kuala Lumpur, Malaysia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_60">
+                <coordinates>101.7,3.133333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_63">
+            <name>La Paz, Bolivia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 p.m.</description>
+            <Point id="geom_61">
+                <coordinates>-68.366667,-16.45,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_64">
+            <name>Leeds, England</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_62">
+                <coordinates>-1.5,53.75,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_65">
+            <name>Lima, Peru</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 12:00 noon</description>
+            <Point id="geom_63">
+                <coordinates>-77.033333,-12,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_66">
+            <name>Lisbon, Portugal</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_64">
+                <coordinates>-9.15,38.733333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_67">
+            <name>Liverpool, England</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_65">
+                <coordinates>-3,53.416667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_68">
+            <name>London, England</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_66">
+                <coordinates>-0.083333,51.533333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_69">
+            <name>Lyons, France</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_67">
+                <coordinates>4.833333,45.75,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_70">
+            <name>Madrid, Spain</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_68">
+                <coordinates>-3.7,40.433333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_71">
+            <name>Manchester, England</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_69">
+                <coordinates>-2.25,53.5,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_72">
+            <name>Manila, Philippines</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_70">
+                <coordinates>120.95,14.583333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_73">
+            <name>Marseilles, France</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_71">
+                <coordinates>5.333333,43.333333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_74">
+            <name>Mazatlan, Mexico</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 10:00 a.m.</description>
+            <Point id="geom_72">
+                <coordinates>-106.416667,23.2,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_75">
+            <name>Mecca, Saudi Arabia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 8:00 p.m.</description>
+            <Point id="geom_73">
+                <coordinates>39.75,21.483333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_76">
+            <name>Melbourne, Australia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 3:00 a.m.</description>
+            <Point id="geom_74">
+                <coordinates>144.966667,-37.783333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_77">
+            <name>Mexico City, Mexico</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 11:00 a.m.</description>
+            <Point id="geom_75">
+                <coordinates>-99.116667,19.433333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_78">
+            <name>Milan, Italy</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_76">
+                <coordinates>9.166667,45.45,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_79">
+            <name>Montevideo, Uruguay</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 p.m.</description>
+            <Point id="geom_77">
+                <coordinates>-56.166667,-34.883333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_80">
+            <name>Moscow, Russia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 8:00 p.m.</description>
+            <Point id="geom_78">
+                <coordinates>37.6,55.75,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_81">
+            <name>Munich, Germany</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_79">
+                <coordinates>11.583333,48.133333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_82">
+            <name>Nagasaki, Japan</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 a.m.</description>
+            <Point id="geom_80">
+                <coordinates>129.95,32.8,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_83">
+            <name>Nagoya, Japan</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 a.m.</description>
+            <Point id="geom_81">
+                <coordinates>136.933333,35.116667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_84">
+            <name>Nairobi, Kenya</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 8:00 p.m.</description>
+            <Point id="geom_82">
+                <coordinates>36.916667,-1.416667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_85">
+            <name>Nanjing (Nanking), China</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_83">
+                <coordinates>118.883333,32.05,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_86">
+            <name>Naples, Italy</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_84">
+                <coordinates>14.25,40.833333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_87">
+            <name>New Delhi, India</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 10:30 p.m.</description>
+            <Point id="geom_85">
+                <coordinates>77.2,28.583333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_88">
+            <name>Newcastle-on-Tyne, England</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_86">
+                <coordinates>-1.616667,54.966667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_89">
+            <name>Odessa, Ukraine</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_87">
+                <coordinates>30.8,46.45,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_90">
+            <name>Osaka, Japan</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 a.m.</description>
+            <Point id="geom_88">
+                <coordinates>135.5,34.533333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_91">
+            <name>Oslo, Norway</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_89">
+                <coordinates>10.7,59.95,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_92">
+            <name>Panama City, Panama</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 12:00 noon</description>
+            <Point id="geom_90">
+                <coordinates>-79.533333,8.966667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_93">
+            <name>Paramaribo, Suriname</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 p.m.</description>
+            <Point id="geom_91">
+                <coordinates>-55.25,5.75,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_94">
+            <name>Paris, France</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_92">
+                <coordinates>2.333333,48.8,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_95">
+            <name>Perth, Australia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_93">
+                <coordinates>115.866667,-31.95,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_96">
+            <name>Plymouth, England</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_94">
+                <coordinates>-4.083333,50.416667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_97">
+            <name>Port Moresby, Papua New Guinea</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 3:00 a.m.</description>
+            <Point id="geom_95">
+                <coordinates>147.133333,-9.416667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_98">
+            <name>Prague, Czech Republic</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_96">
+                <coordinates>14.433333,50.083333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_99">
+            <name>Rangoon, Myanmar</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 11:30 p.m.</description>
+            <Point id="geom_97">
+                <coordinates>96,16.833333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_100">
+            <name>Reykjavik, Iceland</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 p.m.</description>
+            <Point id="geom_98">
+                <coordinates>-21.966667,64.066667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_101">
+            <name>Rio de Janeiro, Brazil</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 p.m.</description>
+            <Point id="geom_99">
+                <coordinates>-43.2,-22.95,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_102">
+            <name>Rome, Italy</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_100">
+                <coordinates>12.45,41.9,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_103">
+            <name>Salvador, Brazil</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 p.m.</description>
+            <Point id="geom_101">
+                <coordinates>-38.45,-12.933333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_104">
+            <name>Santiago, Chile</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 p.m.</description>
+            <Point id="geom_102">
+                <coordinates>-70.75,-33.466667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_105">
+            <name>St. Petersburg, Russia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 8:00 p.m.</description>
+            <Point id="geom_103">
+                <coordinates>30.3,59.933333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_106">
+            <name>Sao Paulo, Brazil</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 p.m.</description>
+            <Point id="geom_104">
+                <coordinates>-46.516667,-23.516667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_107">
+            <name>Shanghai, China</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_105">
+                <coordinates>121.466667,31.166667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_108">
+            <name>Singapore, Singapore</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 1:00 a.m.</description>
+            <Point id="geom_106">
+                <coordinates>103.916667,1.233333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_109">
+            <name>Sofia, Bulgaria</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_107">
+                <coordinates>23.333333,42.666667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_110">
+            <name>Stockholm, Sweden</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_108">
+                <coordinates>18.05,59.283333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_111">
+            <name>Sydney, Australia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 3:00 a.m.</description>
+            <Point id="geom_109">
+                <coordinates>151,-34,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_112">
+            <name>Tananarive, Madagascar</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 8:00 p.m.</description>
+            <Point id="geom_110">
+                <coordinates>47.55,-18.833333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_113">
+            <name>Teheran, Iran</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 8:30 p.m.</description>
+            <Point id="geom_111">
+                <coordinates>51.75,35.75,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_114">
+            <name>Tokyo, Japan</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 2:00 a.m.</description>
+            <Point id="geom_112">
+                <coordinates>139.75,35.666667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_115">
+            <name>Tripoli, Libya</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 7:00 p.m.</description>
+            <Point id="geom_113">
+                <coordinates>13.2,32.95,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_116">
+            <name>Venice, Italy</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_114">
+                <coordinates>12.333333,45.433333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_117">
+            <name>Veracruz, Mexico</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 11:00 a.m.</description>
+            <Point id="geom_115">
+                <coordinates>-96.166667,19.166667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_118">
+            <name>Vienna, Austria</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_116">
+                <coordinates>16.333333,48.233333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_119">
+            <name>Vladivostok, Russia</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 3:00 a.m.</description>
+            <Point id="geom_117">
+                <coordinates>132,43.166667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_120">
+            <name>Warsaw, Poland</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_118">
+                <coordinates>21,52.233333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_121">
+            <name>Wellington, New Zealand</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 5:00 a.m.</description>
+            <Point id="geom_119">
+                <coordinates>174.783333,-41.283333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_122">
+            <name>Zurich, Switzerland</name>
+            <description>Time corresponding to 12:00 noon, Eastern Standard Time: 6:00 p.m.</description>
+            <Point id="geom_120">
+                <coordinates>8.516667,47.35,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

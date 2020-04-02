@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <Style id="stylesel_0">
+            <IconStyle id="substyle_0">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_1">
+                    <href/>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="substyle_1">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+            <LineStyle id="substyle_2">
+                <colorMode>normal</colorMode>
+                <width>0</width>
+            </LineStyle>
+        </Style>
+        <name>Car</name>
+        <open>1</open>
+        <Placemark id="feat_3">
+            <name>Car Track</name>
+            <description>Model from: http://sketchup.google.com/3dwarehouse/details?mid=88a57c5396d3703dec0b522a48034ff2</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <gx:Track>
+                <when>2008-07-14T00:00:00Z</when>
+                <when>2008-07-14T00:00:30Z</when>
+                <when>2008-07-14T00:01:00Z</when>
+                <when>2008-07-14T00:01:30Z</when>
+                <when>2008-07-14T00:02:00Z</when>
+                <when>2008-07-14T00:02:30Z</when>
+                <when>2008-07-14T00:03:00Z</when>
+                <when>2008-07-14T00:03:30Z</when>
+                <when>2008-07-14T00:04:00Z</when>
+                <when>2008-07-14T00:04:30Z</when>
+                <when>2008-07-14T00:05:00Z</when>
+                <when>2008-07-14T00:05:30Z</when>
+                <when>2008-07-14T00:06:00Z</when>
+                <when>2008-07-14T00:06:30Z</when>
+                <when>2008-07-14T00:07:00Z</when>
+                <when>2008-07-14T00:07:30Z</when>
+                <when>2008-07-14T00:08:00Z</when>
+                <gx:coord>-1.205638094515976 52.86427051097027 0</gx:coord>
+                <gx:coord>-1.205381150785744 52.86520449509131 0</gx:coord>
+                <gx:coord>-1.205070556273065 52.8658866187436 0</gx:coord>
+                <gx:coord>-1.20506114704183 52.86601843957955 0</gx:coord>
+                <gx:coord>-1.20512625833175 52.86623139261676 0</gx:coord>
+                <gx:coord>-1.205294145395112 52.86643197457281 0</gx:coord>
+                <gx:coord>-1.205676706574317 52.86711097792102 0</gx:coord>
+                <gx:coord>-1.205866919720511 52.86749802242012 0</gx:coord>
+                <gx:coord>-1.205978077903859 52.86792708892633 0</gx:coord>
+                <gx:coord>-1.2060237987725 52.86819270231999 0</gx:coord>
+                <gx:coord>-1.205983883148774 52.86826739196837 0</gx:coord>
+                <gx:coord>-1.205580187462454 52.86858138867128 0</gx:coord>
+                <gx:coord>-1.204746927391411 52.8692086964254 0</gx:coord>
+                <gx:coord>-1.204087156570155 52.86976390388508 0</gx:coord>
+                <gx:coord>-1.20376709054747 52.87001624614373 0</gx:coord>
+                <gx:coord>-1.203122645607228 52.87034182188007 0</gx:coord>
+                <gx:coord>-1.202747641987371 52.8705296795463 0</gx:coord>
+                <altitudeMode>clampToGround</altitudeMode>
+                <Model id="geom_0">
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <Orientation>
+                        <heading>75.0</heading>
+                        <tilt>0</tilt>
+                        <roll>0</roll>
+                    </Orientation>
+                    <Scale>
+                        <x>1.0</x>
+                        <y>1.0</y>
+                        <z>1.0</z>
+                    </Scale>
+                    <Link id="link_0">
+                        <href>http://simplekml.googlecode.com/hg/samples/resources/car-model.dae</href>
+                    </Link>
+                </Model>
+            </gx:Track>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <Style id="stylesel_0">
+            <IconStyle id="substyle_0">
+                <colorMode>normal</colorMode>
+                <scale>1.0</scale>
+                <heading>0</heading>
+                <Icon id="link_0">
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <name>Tours</name>
+        <open>1</open>
+        <Placemark id="feat_2">
+            <name>New Zealand's Southern Alps</name>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_0">
+                <coordinates>170.144,-43.605,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <gx:Tour>
+            <name>Play me!</name>
+            <gx:Playlist>
+                <gx:SoundCue id="tour_0">
+                    <href>http://simplekml.googlecode.com/hg/samples/resources/drum_roll_1.wav</href>
+                    <gx:delayedStart>2</gx:delayedStart>
+                </gx:SoundCue>
+                <gx:AnimatedUpdate id="tour_1">
+                    <gx:duration>6.5</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <IconStyle targetId="substyle_0">
+                                <scale>10.0</scale>
+                            </IconStyle>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                <gx:FlyTo id="tour_2">
+                    <gx:duration>4.1</gx:duration>
+                    <Camera>
+                        <longitude>170.157</longitude>
+                        <latitude>-43.671</latitude>
+                        <altitude>9700</altitude>
+                        <heading>-6.333</heading>
+                        <tilt>33.5</tilt>
+                        <roll>0</roll>
+                    </Camera>
+                </gx:FlyTo>
+                <gx:Wait id="tour_3">
+                    <gx:duration>2.4</gx:duration>
+                </gx:Wait>
+            </gx:Playlist>
+        </gx:Tour>
+    </Document>
+</kml>

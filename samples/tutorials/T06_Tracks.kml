@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <name>Tracks</name>
+        <open>1</open>
+        <Document id="feat_2">
+            <name>GPS device</name>
+            <LookAt>
+                <longitude>-122.205544</longitude>
+                <latitude>37.373386</latitude>
+                <gx:TimeSpan id="time_0">
+                    <begin>2010-05-28T02:02:09Z</begin>
+                    <end>2010-05-28T02:02:56Z</end>
+                </gx:TimeSpan>
+                <range>1300.0</range>
+            </LookAt>
+            <Snippet>Created Wed Jun 2 15:33:39 2010</Snippet>
+            <Folder id="feat_3">
+                <Style id="stylesel_1">
+                    <IconStyle id="substyle_0">
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="link_0">
+                            <href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LineStyle id="substyle_1">
+                        <color>99ffac59</color>
+                        <colorMode>normal</colorMode>
+                        <width>6</width>
+                    </LineStyle>
+                </Style>
+                <Style id="stylesel_2">
+                    <IconStyle id="substyle_2">
+                        <colorMode>normal</colorMode>
+                        <scale>1.2</scale>
+                        <heading>0</heading>
+                        <Icon id="link_1">
+                            <href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LineStyle id="substyle_3">
+                        <color>99ffac59</color>
+                        <colorMode>normal</colorMode>
+                        <width>8</width>
+                    </LineStyle>
+                </Style>
+                <StyleMap id="stylesel_0">
+                    <Pair>
+                        <key>normal</key>
+                        <styleUrl>#stylesel_1</styleUrl>
+                    </Pair>
+                    <Pair>
+                        <key>highlight</key>
+                        <styleUrl>#stylesel_2</styleUrl>
+                    </Pair>
+                </StyleMap>
+                <name>Tracks</name>
+                <Placemark id="feat_4">
+                    <name>2010-05-28T01:16:35.000Z</name>
+                    <styleUrl>#stylesel_0</styleUrl>
+                    <gx:Track>
+                        <when>2010-05-28T02:02:09Z</when>
+                        <when>2010-05-28T02:02:35Z</when>
+                        <when>2010-05-28T02:02:44Z</when>
+                        <when>2010-05-28T02:02:53Z</when>
+                        <when>2010-05-28T02:02:54Z</when>
+                        <when>2010-05-28T02:02:55Z</when>
+                        <when>2010-05-28T02:02:56Z</when>
+                        <gx:coord>-122.207881 37.371915 156.0</gx:coord>
+                        <gx:coord>-122.205712 37.373288 152.0</gx:coord>
+                        <gx:coord>-122.204678 37.373939 147.0</gx:coord>
+                        <gx:coord>-122.203572 37.37463 142.199997</gx:coord>
+                        <gx:coord>-122.203451 37.374706 141.800003</gx:coord>
+                        <gx:coord>-122.203329 37.37478 141.199997</gx:coord>
+                        <gx:coord>-122.203207 37.374857 140.199997</gx:coord>
+                        <ExtendedData>
+                            <SchemaData schemaUrl="#schema_1">
+                                <gx:SimpleArrayData name="heartrate">
+                                    <gx:value>181</gx:value>
+                                    <gx:value>177</gx:value>
+                                    <gx:value>175</gx:value>
+                                    <gx:value>173</gx:value>
+                                    <gx:value>173</gx:value>
+                                    <gx:value>173</gx:value>
+                                    <gx:value>173</gx:value>
+                                </gx:SimpleArrayData>
+                                <gx:SimpleArrayData name="cadence">
+                                    <gx:value>86</gx:value>
+                                    <gx:value>103</gx:value>
+                                    <gx:value>108</gx:value>
+                                    <gx:value>113</gx:value>
+                                    <gx:value>113</gx:value>
+                                    <gx:value>113</gx:value>
+                                    <gx:value>113</gx:value>
+                                </gx:SimpleArrayData>
+                                <gx:SimpleArrayData name="power">
+                                    <gx:value>327.0</gx:value>
+                                    <gx:value>177.0</gx:value>
+                                    <gx:value>179.0</gx:value>
+                                    <gx:value>162.0</gx:value>
+                                    <gx:value>166.0</gx:value>
+                                    <gx:value>177.0</gx:value>
+                                    <gx:value>183.0</gx:value>
+                                </gx:SimpleArrayData>
+                            </SchemaData>
+                        </ExtendedData>
+                    </gx:Track>
+                </Placemark>
+            </Folder>
+        </Document>
+        <Schema id="schema_1">
+            <gx:SimpleArrayField name="heartrate" type="int">
+                <displayName>Heart Rate</displayName>
+            </gx:SimpleArrayField>
+            <gx:SimpleArrayField name="cadence" type="int">
+                <displayName>Cadence</displayName>
+            </gx:SimpleArrayField>
+            <gx:SimpleArrayField name="power" type="float">
+                <displayName>Power</displayName>
+            </gx:SimpleArrayField>
+        </Schema>
+    </Document>
+</kml>

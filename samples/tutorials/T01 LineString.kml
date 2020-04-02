@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <name>LineString</name>
+        <open>1</open>
+        <Placemark id="feat_2">
+            <name>A Line</name>
+            <LineString id="geom_0">
+                <coordinates>-122.364383,37.824664,0.0 -122.364152,37.824322,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="feat_3">
+            <name>A Hovering Line</name>
+            <LineString id="geom_1">
+                <coordinates>-122.364167,37.824787,50 -122.363917,37.824423,50</coordinates>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+        </Placemark>
+        <Placemark id="feat_4">
+            <name>An Extended Line</name>
+            <LineString id="geom_2">
+                <coordinates>-122.363965,37.824844,100 -122.363747,37.824501,100</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+        </Placemark>
+        <Placemark id="feat_5">
+            <name>A Sloped Line</name>
+            <LineString id="geom_3">
+                <coordinates>-122.363604,37.825009,0 -122.363331,37.824604,100</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>

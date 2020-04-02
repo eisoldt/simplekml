@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <Style id="stylesel_0">
+            <IconStyle id="substyle_0">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_0">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_1">
+            <IconStyle id="substyle_1">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_1">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/2.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_2">
+            <IconStyle id="substyle_2">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_2">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/3.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle id="substyle_3">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <width>3</width>
+            </LineStyle>
+            <ListStyle>
+                <listItemType>check</listItemType>
+                <ItemIcon>
+                    <href>http://maps.google.com/mapfiles/kml/paddle/3.png</href>
+                </ItemIcon>
+            </ListStyle>
+        </Style>
+        <name>ExtendedData</name>
+        <open>1</open>
+        <Placemark id="feat_2">
+            <name>1. World of Birds (Data)</name>
+            <styleUrl>#stylesel_0</styleUrl>
+            <ExtendedData>
+                <Data name="birds">
+                    <value>400</value>
+                    <displayName>Bird Species</displayName>
+                </Data>
+                <Data name="aviaries">
+                    <value>100</value>
+                    <displayName>Aviaries</displayName>
+                </Data>
+                <Data name="visitors">
+                    <value>10000</value>
+                    <displayName>Annual Visitors</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="geom_0">
+                <coordinates>18.36196,-34.016543,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Schema id="schema_1" name="WOW">
+            <SimpleField name="birds" type="int">
+                <displayName>Bird Species</displayName>
+            </SimpleField>
+            <SimpleField name="aviaries" type="int">
+                <displayName>Aviaries</displayName>
+            </SimpleField>
+            <SimpleField name="visitors" type="int">
+                <displayName>Annual Visitors</displayName>
+            </SimpleField>
+        </Schema>
+        <Placemark id="feat_3">
+            <name>2. World of Birds (Simple Data)</name>
+            <styleUrl>#stylesel_1</styleUrl>
+            <ExtendedData>
+                <SchemaData schemaUrl="#schema_1">
+                    <SimpleData name="birds">400</SimpleData>
+                    <SimpleData name="aviaries">100</SimpleData>
+                    <SimpleData name="visitors">10000</SimpleData>
+                </SchemaData>
+            </ExtendedData>
+            <Point id="geom_1">
+                <coordinates>18.36196,-34.017224,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Schema id="schema_2" name="Walk">
+            <gx:SimpleArrayField name="birdseen" type="int">
+                <displayName>Birds Seen</displayName>
+            </gx:SimpleArrayField>
+        </Schema>
+        <Placemark id="feat_4">
+            <name>3. World of Birds (Simple Array Data)</name>
+            <Snippet maxLines="4">Click anywhere on the line or open the elevation profile to view the extended data.</Snippet>
+            <styleUrl>#stylesel_2</styleUrl>
+            <gx:Track>
+                <when>2010-05-28T02:00:00Z</when>
+                <when>2010-05-28T02:10:00Z</when>
+                <when>2010-05-28T02:20:00Z</when>
+                <when>2010-05-28T02:30:00Z</when>
+                <when>2010-05-28T02:40:00Z</when>
+                <when>2010-05-28T02:50:00Z</when>
+                <gx:coord>18.36271305597591 -34.01792707074279 0</gx:coord>
+                <gx:coord>18.36249939144205 -34.01762728515967 0</gx:coord>
+                <gx:coord>18.36247681257987 -34.01736644626698 0</gx:coord>
+                <gx:coord>18.36237928017156 -34.01723665897296 0</gx:coord>
+                <gx:coord>18.36223391902398 -34.0172544563783 0</gx:coord>
+                <gx:coord>18.36203086107577 -34.01693989513787 0</gx:coord>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#schema_2">
+                        <gx:SimpleArrayData name="birdseen">
+                            <gx:value>5</gx:value>
+                            <gx:value>8</gx:value>
+                            <gx:value>10</gx:value>
+                            <gx:value>15</gx:value>
+                            <gx:value>20</gx:value>
+                            <gx:value>30</gx:value>
+                        </gx:SimpleArrayData>
+                    </SchemaData>
+                </ExtendedData>
+            </gx:Track>
+        </Placemark>
+    </Document>
+</kml>

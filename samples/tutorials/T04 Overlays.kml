@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <name>Overlays</name>
+        <open>1</open>
+        <GroundOverlay id="feat_2">
+            <name>GroundOverlay Test</name>
+            <Icon id="link_0">
+                <href>http://simplekml.googlecode.com/hg/samples/resources/smile.png</href>
+            </Icon>
+            <gx:LatLonQuad>
+                <coordinates>18.410524,-33.903972,0.0 18.411429,-33.904171,0.0 18.411757,-33.902944,0.0 18.41085,-33.902767,0.0</coordinates>
+            </gx:LatLonQuad>
+        </GroundOverlay>
+        <ScreenOverlay id="feat_3">
+            <name>ScreenOverlay Test</name>
+            <Icon id="link_1">
+                <href>http://simplekml.googlecode.com/hg/samples/resources/simplekml-logo.png</href>
+            </Icon>
+            <overlayXY x="0" xunits="fraction" y="1" yunits="fraction"/>
+            <screenXY x="15" xunits="pixel" y="15" yunits="insetPixels"/>
+            <size x="-1" xunits="fraction" y="-1" yunits="fraction"/>
+        </ScreenOverlay>
+        <PhotoOverlay id="feat_4">
+            <Style id="stylesel_0">
+                <IconStyle id="substyle_0">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="link_2">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>PhotoOverlay Test</name>
+            <Camera>
+                <longitude>18.410858</longitude>
+                <latitude>-33.904446</latitude>
+                <altitude>50</altitude>
+                <altitudeMode>clampToGround</altitudeMode>
+            </Camera>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Icon id="link_3">
+                <href>http://simplekml.googlecode.com/hg/samples/resources/stadium.jpg</href>
+            </Icon>
+            <ViewVolume>
+                <leftFov>-25</leftFov>
+                <rightFov>25</rightFov>
+                <bottomFov>-15</bottomFov>
+                <topFov>15</topFov>
+                <near>1</near>
+            </ViewVolume>
+            <Point id="geom_0">
+                <coordinates>18.410858,-33.90444,0.0</coordinates>
+            </Point>
+        </PhotoOverlay>
+    </Document>
+</kml>

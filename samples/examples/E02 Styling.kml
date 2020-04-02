@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="2">
+            <ListStyle>
+                <listItemType>radioFolder</listItemType>
+                <ItemIcon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+                </ItemIcon>
+            </ListStyle>
+        </Style>
+        <Style id="7">
+            <IconStyle id="9">
+                <color>ffff0000</color>
+                <colorMode>normal</colorMode>
+                <scale>3</scale>
+                <heading>0</heading>
+                <Icon id="10">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/info-i.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="8">
+                <color>ffff0000</color>
+                <colorMode>normal</colorMode>
+                <scale>2</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="9">
+            <LineStyle id="10">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <width>10</width>
+            </LineStyle>
+        </Style>
+        <Style id="19">
+            <PolyStyle id="20">
+                <color>990000ff</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>0</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="23">
+            <BalloonStyle>
+                <bgColor>ff90ee90</bgColor>
+                <textColor>ffff0000</textColor>
+                <text>These are trees and this text is blue with a green background.</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="3">
+            <LabelStyle id="4">
+                <color>ffff0000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="5">
+            <LabelStyle id="6">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <name>Styling</name>
+        <open>1</open>
+        <styleUrl>#2</styleUrl>
+        <Placemark id="6">
+            <name>Kirstenbosch Normal</name>
+            <description>A style map.</description>
+            <styleUrl>#7</styleUrl>
+            <Point id="5">
+                <coordinates>18.431486,-33.988,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="1">
+            <name>Kirstenbosch StyleMap</name>
+            <styleUrl>#2</styleUrl>
+            <Point id="0">
+                <coordinates>18.432314,-33.988862,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="8">
+            <name>Pathway</name>
+            <description>A pathway in Kirstenbosch</description>
+            <styleUrl>#9</styleUrl>
+            <LineString id="7">
+                <coordinates>18.43312,-33.98924,0.0 18.43224,-33.98914,0.0 18.43144,-33.98911,0.0 18.43095,-33.98904,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="12">
+            <name>Atrium Garden</name>
+            <styleUrl>#19</styleUrl>
+            <Polygon id="11">
+                <outerBoundaryIs>
+                    <LinearRing id="13">
+                        <coordinates>18.43348,-33.98985,0.0 18.43387,-33.99004262216968,0.0 18.4341,-33.98972,0.0 18.43371,-33.98952,0.0 18.43348,-33.98985,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+                <innerBoundaryIs>
+                    <LinearRing id="15">
+                        <coordinates>18.4336,-33.98982,0.0 18.43386,-33.98995,0.0 18.43401,-33.98974,0.0 18.43376,-33.98962,0.0 18.4336,-33.98982,0.0</coordinates>
+                    </LinearRing>
+                </innerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="22">
+            <name>BallonStyle</name>
+            <styleUrl>#23</styleUrl>
+            <Point id="21">
+                <coordinates>18.429191,-33.987286,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

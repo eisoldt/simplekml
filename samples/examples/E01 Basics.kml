@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <name>Basics</name>
+        <open>1</open>
+        <Document id="feat_2">
+            <name>A Document</name>
+            <Document id="feat_3">
+                <name>A Nested Document</name>
+                <description>– This is the nested document's description with unicode.</description>
+            </Document>
+        </Document>
+        <Folder id="feat_4">
+            <name>A Folder</name>
+            <description>Description of a folder</description>
+            <Folder id="feat_5">
+                <name>A Nested Folder</name>
+                <description>Description of a nested folder</description>
+            </Folder>
+        </Folder>
+        <Folder id="feat_6">
+            <Style id="stylesel_0">
+                <IconStyle id="substyle_1">
+                    <color>ffff00ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>45</heading>
+                    <Icon id="link_0">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="substyle_0">
+                    <color>ff0000ff</color>
+                    <colorMode>random</colorMode>
+                    <scale>2</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="stylesel_1">
+                <LabelStyle id="substyle_2">
+                    <color>ff00ffff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                </LabelStyle>
+            </Style>
+            <name>Point Tests</name>
+            <description>Description of Point Folder</description>
+            <Placemark id="feat_7">
+                <name>Cape Town Stadium</name>
+                <description>The Cape Town stadium built for the 2010 world cup soccer.</description>
+                <Point id="geom_0">
+                    <coordinates>18.411102,-33.903486,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_8">
+                <name>V&amp;A Waterfront</name>
+                <description>The V&amp;A Waterfront in Cape Town</description>
+                <styleUrl>#stylesel_0</styleUrl>
+                <Point id="geom_1">
+                    <coordinates>18.418699,-33.90708,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_9">
+                <name>Ferris Wheel</name>
+                <description>Same style as V&amp;A</description>
+                <styleUrl>#stylesel_0</styleUrl>
+                <Point id="geom_2">
+                    <coordinates>18.422892,-33.912937,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_10">
+                <name>Signal Hill</name>
+                <description>Style from a class</description>
+                <styleUrl>#stylesel_1</styleUrl>
+                <Point id="geom_3">
+                    <coordinates>18.399813,-33.92025,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="feat_11">
+            <Style id="stylesel_2">
+                <LineStyle id="substyle_3">
+                    <color>ff00ffff</color>
+                    <colorMode>normal</colorMode>
+                    <width>10</width>
+                </LineStyle>
+            </Style>
+            <name>LineString Tests</name>
+            <description>Description of LineString Folder</description>
+            <Placemark id="feat_12">
+                <name>Habour Wall</name>
+                <description>The harbour wall.</description>
+                <LineString id="geom_4">
+                    <coordinates>18.4344241201222,-33.89769114130021,0 18.42577537818946,-33.90011519574129,0</coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark id="feat_13">
+                <name>Rotating Bridge</name>
+                <description>The bridge rotates!</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <LineString id="geom_5">
+                    <coordinates>18.42180448650733,-33.90615962911964,20.5 18.42201572227569,-33.9064462880076,10.5</coordinates>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LineString>
+            </Placemark>
+        </Folder>
+        <Folder id="feat_14">
+            <Style id="stylesel_3">
+                <LineStyle id="substyle_4">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <width>5</width>
+                </LineStyle>
+                <PolyStyle id="substyle_5">
+                    <color>ffff00ff</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Polygon Tests</name>
+            <description>Description of Polgon Folder</description>
+            <Placemark id="feat_15">
+                <name>Two Oceans Aquarium</name>
+                <description>A aquarium with fish.</description>
+                <Polygon id="geom_6">
+                    <outerBoundaryIs>
+                        <LinearRing id="geom_7">
+                            <coordinates>18.41754659343738,-33.90835172260248,0 18.41812390156041,-33.90809723020431,0 18.41794038110668,-33.9078222852994,0 18.41770068653614,-33.90793436536714,0 18.41747401819836,-33.90771808929424,0 18.41719328543339,-33.9079095416603,0 18.41734156322152,-33.90807829739979,0 18.41717060935807,-33.90819466465658,0 18.41731950597035,-33.90835166308609,0 18.41745256837932,-33.90826680151411,0 18.41754659343738,-33.90835172260248,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="feat_17">
+                <name>Protea Hotel</name>
+                <description>A hotel.</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Polygon id="geom_8">
+                    <outerBoundaryIs>
+                        <LinearRing id="geom_10">
+                            <coordinates>18.41543354224076,-33.90815042775773,0 18.41588475318415,-33.90785215367858,0 18.41559067227835,-33.90755041505265,0 18.41514037818727,-33.907849668799,0 18.41543354224076,-33.90815042775773,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                    <innerBoundaryIs>
+                        <LinearRing id="geom_11">
+                            <coordinates>18.41544664378987,-33.90797757844747,0 18.415668772438,-33.90782646170953,0 18.41557012808532,-33.90772429063932,0 18.4153486707404,-33.90787067928737,0 18.41544664378987,-33.90797757844747,0</coordinates>
+                        </LinearRing>
+                    </innerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="feat_22">
+                <name>Two Oceans Aquarium2</name>
+                <description>A aquarium with fish.</description>
+                <Polygon id="geom_13">
+                    <outerBoundaryIs>
+                        <LinearRing id="geom_14">
+                            <coordinates>18.41754659343738,-33.90835172260248,0 18.41812390156041,-33.90809723020431,0 18.41794038110668,-33.9078222852994,0 18.41770068653614,-33.90793436536714,0 18.41747401819836,-33.90771808929424,0 18.41719328543339,-33.9079095416603,0 18.41734156322152,-33.90807829739979,0 18.41717060935807,-33.90819466465658,0 18.41731950597035,-33.90835166308609,0 18.41745256837932,-33.90826680151411,0 18.41754659343738,-33.90835172260248,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
