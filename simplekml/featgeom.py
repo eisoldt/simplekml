@@ -1770,7 +1770,7 @@ class ScreenOverlay(Overlay):
         screen.icon.href = 'http://simplekml.googlecode.com/hg/samples/resources/simplekml-logo.png'
         screen.overlayxy = simplekml.OverlayXY(x=0,y=1,xunits=simplekml.Units.fraction,
                                                yunits=simplekml.Units.fraction)
-        screen.screenxy = simplekml.ScreenXY(x=15,y=15,xunits=simplekml.Units.pixel,
+        screen.screenxy = simplekml.ScreenXY(x=15,y=15,xunits=simplekml.Units.pixels,
                                              yunits=simplekml.Units.insetpixels)
         screen.size.x = -1
         screen.size.y = -1

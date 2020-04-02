@@ -22,7 +22,7 @@ ground.gxlatlonquad.coords = [(18.410524,-33.903972),(18.411429,-33.904171),(18.
 screen = kml.newscreenoverlay(name='ScreenOverlay Test')
 screen.icon.href = 'http://simplekml.googlecode.com/hg/samples/resources/simplekml-logo.png'
 screen.overlayxy = OverlayXY(x=0,y=1,xunits=Units.fraction,yunits=Units.fraction)
-screen.screenxy = ScreenXY(x=15,y=15,xunits=Units.pixel,yunits=Units.insetpixels)
+screen.screenxy = ScreenXY(x=15,y=15,xunits=Units.pixels,yunits=Units.insetpixels)
 screen.size.x = -1
 screen.size.y = -1
 screen.size.xunits = Units.fraction
