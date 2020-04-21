@@ -1,4 +1,5 @@
 README.txt
+LICENSE.txt
 setup.py
 simplekml\__init__.py
 simplekml\abstractview.py
