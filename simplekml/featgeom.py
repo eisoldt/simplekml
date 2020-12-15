@@ -2263,7 +2263,7 @@ class GxTrack(Geometry):
         self.newgxcoord(gxcoord)
         self.newwhen(when)
         if angle is not None:
-            self.newangle(angle)
+            self.newgxangle(angle)
 
     def newwhen(self, when):
         """Creates a new when time, accepts string or list of string.
