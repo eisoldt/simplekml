@@ -15,7 +15,7 @@ Resources
 
   * `KML Reference <https://developers.google.com/kml/documentation/kmlreference?csw=1>`_ as published by Google for a good understanding of what KML is capable of.
   
-  * `Samples File <https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/SamplesLink.kml>`_ (right-click > Save link as...) for example code with corresponding KML. This file is simply a network link. When examples and tutorials are updated the updates will reflect in the sample file (needs to be redownloaded if it was downloaded prior to 1.2.8).
+  * `Samples File <https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/SamplesLink.kml>`_ (right-click > Save link as...) for example code with corresponding KML. This file is simply a network link. When examples and tutorials are updated the updates will reflect in the sample file (needs to be redownloaded if it was downloaded prior to 1.2.8).
   
   * `Polycircles <http://polycircles.readthedocs.org/en/latest/>`_ is a Python package that uses simplekml to create Polygonal circle approximation KMLs (because KML does not support circle geometry).
 
