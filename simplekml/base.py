@@ -58,6 +58,7 @@ class Kmlable(object):
                     buf.append(u"{0}".format(val))  # Use the variable's __str__ as is
                 else:
                     if var in ['name', 'description', 'text', 'linkname', 'linkdescription', 'message', 'change', 'create', 'delete', 'link'] and parsetext: # Parse value for HTML and convert
+                        val = str(val) # _chrconvert() barfs with inscrutable error when not passed a string, e.g. a NaN value. 
                         val = Kmlable._chrconvert(val)
                     elif (var == 'href' and os.path.exists(val) and outputkmz == True)\
                             or (var == 'targetHref' and os.path.exists(val) and outputkmz == True): # Check for images
