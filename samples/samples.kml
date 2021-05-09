@@ -171,7 +171,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">Example demonstrating how to use gx:Track with a model.</Snippet>
                 <Link id="7">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/examples/E04%20Track.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/examples/E04%20Track.kml</href>
                 </Link>
             </NetworkLink>
             <NetworkLink id="8">
@@ -290,7 +290,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">A collection of various features and stylings.</Snippet>
                 <Link id="9">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/examples/E03%20Various.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/examples/E03%20Various.kml</href>
                 </Link>
             </NetworkLink>
             <NetworkLink id="10">
@@ -395,7 +395,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">Styling points, linestrings, polygons and TOC items.</Snippet>
                 <Link id="11">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/examples/E02%20Styling.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/examples/E02%20Styling.kml</href>
                 </Link>
             </NetworkLink>
             <NetworkLink id="12">
@@ -446,7 +446,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">How to use simplekml.</Snippet>
                 <Link id="13">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/examples/E00%20Usage.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/examples/E00%20Usage.kml</href>
                 </Link>
             </NetworkLink>
             <NetworkLink id="14">
@@ -599,7 +599,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">The very basics of simplekml.</Snippet>
                 <Link id="15">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/examples/E01%20Basics.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/examples/E01%20Basics.kml</href>
                 </Link>
             </NetworkLink>
         </Folder>
@@ -771,7 +771,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">This shows the use of the 3 different types of extended data: Data, Simple Data and Simple Array Data, as well as prettying up the data.</Snippet>
                 <Link id="20">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/tutorials/T05_ExtendedData.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/tutorials/T05_ExtendedData.kml</href>
                 </Link>
             </NetworkLink>
             <NetworkLink id="21">
@@ -854,7 +854,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">Demonstrates touring with the reproduction of the tour sample in the KML Reference https://developers.google.com/kml/documentation/kmlreference#gxtour with the addition of GxSoundCue</Snippet>
                 <Link id="22">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/tutorials/T07_Tours.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/tutorials/T07_Tours.kml</href>
                 </Link>
             </NetworkLink>
             <NetworkLink id="23">
@@ -995,7 +995,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">This is a recreation of the example found in the KML Reference: http://code.google.com/apis/kml/documentation/kmlreference.html#gxtrack The unnecessary styling has not been implemented, but if you compare the KML References example in Google Earth to this example you should see no difference whatsoever (except for id values).</Snippet>
                 <Link id="24">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/tutorials/T06_Tracks.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/tutorials/T06_Tracks.kml</href>
                 </Link>
             </NetworkLink>
             <NetworkLink id="25">
@@ -1108,7 +1108,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">Demonstrates three types of MultiGeometry (point, linestring and polygon) using the South Africa coordinate system as a basis.</Snippet>
                 <Link id="26">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/tutorials/T03%20MultiGeometry.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/tutorials/T03%20MultiGeometry.kml</href>
                 </Link>
             </NetworkLink>
             <NetworkLink id="27">
@@ -1175,7 +1175,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">Demonstrates how to create a linestring focusing on the extrude and altitudemode properties.</Snippet>
                 <Link id="28">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/tutorials/T01%20LineString.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/tutorials/T01%20LineString.kml</href>
                 </Link>
             </NetworkLink>
             <NetworkLink id="29">
@@ -1254,7 +1254,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">Demonstrates the basics of overlays (ground screen and photo overlay).</Snippet>
                 <Link id="30">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/tutorials/T04%20Overlays.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/tutorials/T04%20Overlays.kml</href>
                 </Link>
             </NetworkLink>
             <NetworkLink id="31">
@@ -1551,7 +1551,7 @@ kml&lt;span style=&quot;color: #666666&quot;&gt;.&lt;/span&gt;save(os&lt;span st
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
                 <Snippet maxLines="1">Demonstrates how to create points and change some of the properties of points.</Snippet>
                 <Link id="32">
-                    <href>https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/tutorials/T00%20Point.kml</href>
+                    <href>https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/tutorials/T00%20Point.kml</href>
                 </Link>
             </NetworkLink>
         </Folder>

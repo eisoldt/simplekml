@@ -44,7 +44,7 @@ for folder in folders:
                         lines += line
             html = highlight(lines, PythonLexer(), formatter)
             netlink.description += html
-            netlink.link.href = "https://bitbucket.org/Eisoldt/simplekml/raw/tip/samples/{1}/{0}.kml".format(name.replace(" ", "%20"), folder.lower())
+            netlink.link.href = "https://raw.githubusercontent.com/eisoldt/simplekml/master/samples/{1}/{0}.kml".format(name.replace(" ", "%20"), folder.lower())
 
 kml.save(os.path.splitext(__file__)[0] + ".kml")
 
