@@ -38,7 +38,7 @@ With property assignment, when you change the properties of the objects you are 
     import simplekml
     kml = simplekml.Kml()
     pnt = kml.newpoint(name="A Point")
-    print kml.kml()
+    print(kml.kml())
 
 This is what is generated:
 
@@ -163,7 +163,7 @@ And finally, you mix the two methods as you see fit. Each circumstance will requ
 
         import simplekml
         kml = simplekml.Kml()
-        print kml.document.snippet
+        print(kml.document.snippet)
 
     The following will be generated when saving the KML:
 

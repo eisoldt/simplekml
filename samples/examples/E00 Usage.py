@@ -22,4 +22,4 @@ pol = kml.newpolygon(name="Atrium Garden",
 # Saving
 kml.save(os.path.splitext(__file__)[0] + ".kml")
 #kml.savekmz(os.path.splitext(__file__)[0] + ".kmz") # uncomment to save to kmz
-#print kml.kml() # uncomment to see the kml printed to screen
+#print(kml.kml()) # uncomment to see the kml printed to screen

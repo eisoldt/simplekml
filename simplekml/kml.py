@@ -46,7 +46,7 @@ class Kml(Kmlable):
         kml.newpoint(name="Kirstenbosch", coords=[(18.432314,-33.988862)])  # A simple Point
         kml.save("KmlClass.kml")  # Saving
         kml.savekmz("KmlClass.kmz", format=False)  # Saving as KMZ
-        print kml.kml()  # Printing out the kml to screen
+        print(kml.kml())  # Printing out the kml to screen
     """
 
     def __init__(self, **kwargs):
@@ -178,7 +178,7 @@ class Kml(Kmlable):
             from simplekml import Kml
             kml = Kml()
             kml.hint = 'target=moon'
-            print kml.kml()
+            print(kml.kml())
 
         Result:
 
@@ -272,7 +272,7 @@ class Kml(Kmlable):
             kml = simplekml.Kml()
             pnt = kml.newpoint(name='A Point')
             pnt.coords = [(1.0, 2.0)]
-            print kml.kml()
+            print(kml.kml())
 
         PrettyPrinted Result:
 
@@ -296,7 +296,7 @@ class Kml(Kmlable):
             kml = simplekml.Kml()
             pnt = kml.newpoint(name='A Point')
             pnt.coords = [(1.0, 2.0)]
-            print kml.kml(False)
+            print(kml.kml(False))
 
         Single Line Result:
 
