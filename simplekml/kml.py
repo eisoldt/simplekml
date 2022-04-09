@@ -19,6 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import xml.dom.minidom
 import zipfile
 import codecs
+from io import StringIO
 import os
 
 from simplekml.base import Kmlable, KmlElement, check
@@ -46,7 +47,7 @@ class Kml(Kmlable):
         kml.newpoint(name="Kirstenbosch", coords=[(18.432314,-33.988862)])  # A simple Point
         kml.save("KmlClass.kml")  # Saving
         kml.savekmz("KmlClass.kmz", format=False)  # Saving as KMZ
-        print(kml.kml())  # Printing out the kml to screen
+        print kml.kml()  # Printing out the kml to screen
     """
 
     def __init__(self, **kwargs):
@@ -178,7 +179,7 @@ class Kml(Kmlable):
             from simplekml import Kml
             kml = Kml()
             kml.hint = 'target=moon'
-            print(kml.kml())
+            print kml.kml()
 
         Result:
 
@@ -272,7 +273,7 @@ class Kml(Kmlable):
             kml = simplekml.Kml()
             pnt = kml.newpoint(name='A Point')
             pnt.coords = [(1.0, 2.0)]
-            print(kml.kml())
+            print kml.kml()
 
         PrettyPrinted Result:
 
@@ -296,7 +297,7 @@ class Kml(Kmlable):
             kml = simplekml.Kml()
             pnt = kml.newpoint(name='A Point')
             pnt.coords = [(1.0, 2.0)]
-            print(kml.kml(False))
+            print kml.kml(False)
 
         Single Line Result:
 
@@ -329,11 +330,14 @@ class Kml(Kmlable):
         Kmlable._currentroot = self
         self._outputkmz = False
         out = self._genkml(format)
-        f = codecs.open(path, 'wb', 'utf-8')
-        try:
-            f.write(out)
-        finally:
-            f.close()
+        if isinstance(path, StringIO):
+            path.write(out)
+        else:
+            f = codecs.open(path, 'wb', 'utf-8')
+            try:
+                f.write(out)
+            finally:
+                f.close()
 
     def savekmz(self, path, format=True):
         """Save the kml as a kmz to the given file supplied by `path`.
