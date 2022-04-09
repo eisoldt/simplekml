@@ -63,7 +63,9 @@ class Kml(Kmlable):
         self._processedstyles = []
         
     def __str__(self):
-        return "<Root KML object>"
+        with StringIO() as buf:
+            self.save(buf)
+            return buf.getvalue()
 
     def _getnamespaces(self):
         """Return the namespaces as a string."""
