@@ -3,10 +3,11 @@ Create a KML file with networklink with a relative link to another KML file
 both inside the same KMZ file.
 """
 
-import simplekml
+import os
 from zipfile import ZipFile
+import simplekml
 
-with ZipFile('E05_NetworkLink_KMZ.kmz', 'w') as zipObj:
+with ZipFile(os.path.splitext(__file__)[0] + ".kmz", 'w') as zipObj:
 
     # first create root KML with NetworkLink
     kml = simplekml.Kml()
