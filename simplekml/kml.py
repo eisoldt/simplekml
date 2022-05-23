@@ -383,6 +383,15 @@ class Kml(Kmlable):
         """
         return self.document.newfolder(**kwargs)
 
+    def newplacemark(self, **kwargs):
+        """
+        Creates a new :class:`simplekml.Placemark`.
+
+        The Placemark is attached to this KML document. The arguments are the same as those for :class:`simplekml.Placemark`
+        See :class:`simplekml.Placemark` for usage.
+        """
+        return self.document.newplacemark(**kwargs)
+
     def newpoint(self, **kwargs):
         """
         Creates a new :class:`simplekml.Point`.

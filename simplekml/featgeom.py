@@ -673,6 +673,16 @@ class Container(Feature):
         """
         return self._newfeature(Document, **kwargs)
 
+    def newplacemark(self, **kwargs):
+        """Creates a new :class:`simplekml.Placemark` and attaches it to this KML document.
+
+        Arguments are the same as :class:`simplekml.Placemark`
+
+        Returns:
+          * an instance of :class:`simplekml.Placemark` class.
+        """
+        return self._newfeature(Placemark, **kwargs)
+
     def newnetworklink(self, **kwargs):
         """Creates a new :class:`simplekml.NetworkLink` and attaches it to this KML document.
 
@@ -1097,7 +1107,7 @@ class LinearRing(PointGeometry):
         import simplekml
         kml = simplekml.Kml()
         pol = kml.newpolygon()
-        print(pol.outerboundaryis) # Shows that the outer boundary of a polygon is a linear ring
+        print pol.outerboundaryis # Shows that the outer boundary of a polygon is a linear ring
         pol.outerboundaryis.coords = [(0.0,0.0), (1.0,1.0), (2.0,2.0)]
         kml.save("LinearRing.kml")
     """
@@ -1114,10 +1124,6 @@ class LinearRing(PointGeometry):
         self._kml['altitudeMode'] = altitudemode
         self._kml['gx:altitudeMode'] = gxaltitudemode
         self._kml['gx:altitudeOffset'] = gxaltitudeoffset
-        try:
-            self._kml.move_to_end('coordinates')
-        except AttributeError:
-            pass
 
     @property
     def extrude(self):
@@ -1305,10 +1311,6 @@ class LineString(PointGeometry):
         self._kml['gx:altitudeMode'] = gxaltitudemode
         self._kml['gx:altitudeOffset'] = gxaltitudeoffset
         self._kml['gx:drawOrder'] = gxdraworder
-        try:
-            self._kml.move_to_end('coordinates')
-        except AttributeError:
-            pass
 
     @property
     def extrude(self):
