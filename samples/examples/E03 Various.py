@@ -54,5 +54,9 @@ model = kml.newmodel(name="Model", description="Model placemark without a model!
 model.location.latitude = 1
 model.location.longitude = 1
 
+# Create a placemark with an address but no geometry
+place = kml.newplacemark(name="Google Headquarters", address="1600 Amphitheatre Parkway, Mountain View, CA",
+                         description="Located in Mountain View, California")
+
 # Saving
 kml.save(os.path.splitext(__file__)[0] + ".kml")
