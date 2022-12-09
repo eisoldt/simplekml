@@ -2344,8 +2344,7 @@ class GxTrack(Geometry):
         for when in self.whens:
             buf.append("<when>{0}</when>".format(when))
         for angle in self.gxangles:
-            angle_str = ' '.join(map(str, angle))
-            buf.append("<gx:angles>{0}</gx:angles>".format(angle_str))
+            buf.append("<gx:angles>{0}</gx:angles>".format(angle))
         for gxcoord in self.gxcoords:
             buf.append("<gx:coord>{0}</gx:coord>".format(gxcoord.__str__().replace(',', ' ')))
         buf.append(super(GxTrack, self).__str__())
