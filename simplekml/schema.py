@@ -159,8 +159,8 @@ class Schema(Kmlable):
     The arguments are the same as the properties.
     """
 
-    def __init__(self, name=None):
-        super(Schema, self).__init__()
+    def __init__(self, name=None, id=None):
+        super(Schema, self).__init__(id=id)
         self._kml['name'] = name
         self.simplefields = []
         self.gxsimplearrayfields = []

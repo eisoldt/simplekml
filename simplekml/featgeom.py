@@ -41,6 +41,7 @@ class Feature(Kmlable):
 
     def __init__(self,
                  name=None,
+                 id=None,
                  visibility=None,
                  open=None,
                  atomauthor=None,
@@ -57,7 +58,7 @@ class Feature(Kmlable):
                  region=None,
                  extendeddata=None,
                  gxballoonvisibility=None):
-        super(Feature, self).__init__()
+        super(Feature, self).__init__(id=id)
         self._kml['name'] = name
         self._kml['visibility'] = visibility
         self._kml['open'] = open

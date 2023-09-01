@@ -26,8 +26,8 @@ class StyleSelector(Kmlable):
     There are no arguments.
     """
 
-    def __init__(self):
-        super(StyleSelector, self).__init__()
+    def __init__(self, id=None):
+        super(StyleSelector, self).__init__(id=id)
 
     @property
     def id(self):
@@ -57,8 +57,9 @@ class Style(StyleSelector):
                  linestyle=None,
                  polystyle=None,
                  balloonstyle=None,
-                 liststyle=None):
-        super(Style, self).__init__()
+                 liststyle=None,
+                 id=None):
+        super(Style, self).__init__(id=id)
         self._kml["IconStyle_"] = iconstyle
         self._kml["LabelStyle_"] = labelstyle
         self._kml["LineStyle_"] = linestyle
@@ -158,8 +159,9 @@ class StyleMap(StyleSelector):
     """
     def __init__(self,
                  normalstyle=None,
-                 highlightstyle=None):
-        super(StyleMap, self).__init__()
+                 highlightstyle=None,
+                 id=None):
+        super(StyleMap, self).__init__(id=id)
         self._pairnormal = None
         self._pairhighlight = None
         self.normalstyle = normalstyle

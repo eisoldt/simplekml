@@ -30,8 +30,8 @@ class ColorStyle(Kmlable):
       Not to be used directly.
     """
 
-    def __init__(self, color=None, colormode=ColorMode.normal):
-        super(ColorStyle, self).__init__()
+    def __init__(self, color=None, colormode=ColorMode.normal, id=None):
+        super(ColorStyle, self).__init__(id=id)
         self._kml["color"] = color
         self._kml["colorMode"] = colormode
         
@@ -305,8 +305,9 @@ class BalloonStyle(Kmlable):
                  bgcolor=None,
                  textcolor=None,
                  text=None,
-                 displaymode=DisplayMode.default):
-        super(BalloonStyle, self).__init__()
+                 displaymode=DisplayMode.default,
+                 id=None):
+        super(BalloonStyle, self).__init__(id=id)
         self._kml["bgColor"] = bgcolor
         self._kml["textColor"] = textcolor
         self._kml["text"] = text
@@ -373,8 +374,9 @@ class ListStyle(Kmlable):
     def __init__(self,
                  listitemtype=ListItemType.check,
                  bgcolor=None,
-                 itemicon=None):
-        super(ListStyle, self).__init__()
+                 itemicon=None,
+                 id=None):
+        super(ListStyle, self).__init__(id=id)
         self._kml["listItemType"] = listitemtype
         self._kml["bgColor"] = bgcolor
         self._kml["ItemIcon"] = itemicon
