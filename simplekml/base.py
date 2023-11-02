@@ -62,7 +62,7 @@ class Kmlable(object):
                         val = Kmlable._chrconvert(val)
                     elif (var == 'href' and os.path.exists(val) and outputkmz == True)\
                             or (var == 'targetHref' and os.path.exists(val) and outputkmz == True): # Check for images
-                        Kmlable._currentroot._foundimages.append(val)
+                        Kmlable._currentroot._foundimages.add(val)
                         val = os.path.join('files', os.path.split(val)[1]).replace('\\', '/')
                         val = Kmlable._chrconvert(val)
                     elif (var in ['href', 'targetHref']):
