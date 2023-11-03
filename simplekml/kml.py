@@ -57,8 +57,8 @@ class Kml(Kmlable):
         self._hint = None
         self._parsetext = True
         self._outputkmz = False
-        self._images = []
-        self._foundimages = []
+        self._images = set()
+        self._foundimages = set()
         self._namespaces = ['xmlns="http://www.opengis.net/kml/2.2"', 'xmlns:gx="http://www.google.com/kml/ext/2.2"']
         self._processedstyles = []
         
@@ -87,7 +87,7 @@ class Kml(Kmlable):
 
         *New in version 1.2.0*
         """
-        self._images.append(path)
+        self._images.add(path)
         return os.path.join('files', os.path.split(path)[1]).replace("\\", "/")
 
     @property
